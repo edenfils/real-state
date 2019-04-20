@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import Header from './includes/Header.js';
 
 export default class App extends Component {
 	constructor() {
@@ -10,6 +11,11 @@ export default class App extends Component {
 	}
 	async test() {}
 	render() {
-		return <h1>this is the homepage</h1>;
+		return (
+			<div>
+				<Header />
+				<h1>This is the home</h1>
+			</div>
+		);
 	}
 }
