@@ -8,9 +8,8 @@ export default class App extends Component {
 			name: 'Joe'
 		};
 	}
-	clickedBtn = () => {};
 	async test() {}
 	render() {
-		return <div>this is the homepage</div>;
+		return <h1>this is the homepage</h1>;
 	}
 }
