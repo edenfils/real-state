@@ -13,7 +13,7 @@ export default class Slider extends Component {
 				<div className="slider_wrapper">
 					<div className="slider_overlay" />
 					<div id="theme-main-banner">
-						<div data-src="images/slider_img.jpg">
+						<div data-src="img/slider_img.jpg">
 							<div className="camera_caption">
 								<div className="container">
 									<div className="slider_cntnt">
@@ -41,7 +41,7 @@ export default class Slider extends Component {
 								</div>
 							</div>
 						</div>
-						<div data-src="images/slider_img.jpg">
+						<div data-src="img/slider_img.jpg">
 							<div className="camera_caption">
 								<div className="container">
 									<div className="slider_cntnt">
@@ -69,7 +69,7 @@ export default class Slider extends Component {
 								</div>
 							</div>
 						</div>
-						<div data-src="images/slider_img.jpg">
+						<div data-src="img/slider_img.jpg">
 							<div className="camera_caption">
 								<div className="container">
 									<div className="slider_cntnt">
