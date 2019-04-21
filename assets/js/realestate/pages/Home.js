@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import Slider from './components/home/Slider.js';
 
 export default class Home extends Component {
 	constructor() {
@@ -10,7 +11,7 @@ export default class Home extends Component {
 	render() {
 		return (
 			<div>
-				<h1>This is the home</h1>
+				<Slider />
 			</div>
 		);
 	}
