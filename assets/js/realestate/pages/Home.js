@@ -7,6 +7,7 @@ import About from './components/home/About.js';
 import Service from './components/home/Service.js';
 import Agents from './components/home/Agents.js';
 import Testimonial from './components/home/Testimonial.js';
+import Partner from './components/home/Partner.js';
 
 export default class Home extends Component {
 	constructor() {
@@ -24,6 +25,7 @@ export default class Home extends Component {
 				<Service />
 				<Agents />
 				<Testimonial />
+				<Partner />
 			</div>
 		);
 	}
