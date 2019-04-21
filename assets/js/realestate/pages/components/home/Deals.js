@@ -79,7 +79,7 @@ export default class Deals extends Component {
 													<div className="at-col-default-mar">
 														<div className="at-col-default-mar">
 															<select>
-																<option value="0" selected>
+																<option value="0" selected="selected">
 																	Types
 																</option>
 																<option value="1">Family House</option>
@@ -94,7 +94,7 @@ export default class Deals extends Component {
 															className="div-toggle"
 															data-target=".my-info-1"
 														>
-															<option value="0" selected>
+															<option value="0" selected="selected">
 																02 bathroomn
 															</option>
 															<option value="1">1</option>
@@ -108,7 +108,7 @@ export default class Deals extends Component {
 
 													<div className="at-col-default-mar no-mb">
 														<select>
-															<option value="0" selected>
+															<option value="0" selected="selected">
 																02 bedroom
 															</option>
 															<option value="1">1</option>
@@ -128,7 +128,7 @@ export default class Deals extends Component {
 																type="text"
 																id="price"
 																className="price-box"
-																readonly
+																readonly="readonly"
 															/>
 														</div>
 													</div>
@@ -141,7 +141,7 @@ export default class Deals extends Component {
 																type="text"
 																id="price_2"
 																className="price-box"
-																readonly
+																readonly="readonly"
 															/>
 														</div>
 													</div>
@@ -175,7 +175,7 @@ export default class Deals extends Component {
 													<div className="at-col-default-mar">
 														<div className="at-col-default-mar">
 															<select>
-																<option value="0" selected>
+																<option value="0" selected="selected">
 																	Types
 																</option>
 																<option value="1">Family House</option>
@@ -190,7 +190,7 @@ export default class Deals extends Component {
 															className="div-toggle"
 															data-target=".my-info-1"
 														>
-															<option value="0" selected>
+															<option value="0" selected="selected">
 																02 bathroomn
 															</option>
 															<option value="1">1</option>
@@ -204,7 +204,7 @@ export default class Deals extends Component {
 
 													<div className="at-col-default-mar no-mb">
 														<select>
-															<option value="0" selected>
+															<option value="0" selected="selected">
 																02 bedroom
 															</option>
 															<option value="1">1</option>
@@ -261,7 +261,7 @@ export default class Deals extends Component {
 													<div className="at-col-default-mar">
 														<div className="at-col-default-mar">
 															<select>
-																<option value="0" selected>
+																<option value="0" selected="selected">
 																	Types
 																</option>
 																<option value="1">Family House</option>
@@ -276,7 +276,7 @@ export default class Deals extends Component {
 															className="div-toggle"
 															data-target=".my-info-1"
 														>
-															<option value="0" selected>
+															<option value="0" selected="selected">
 																02 bathroomn
 															</option>
 															<option value="1">1</option>
@@ -290,7 +290,7 @@ export default class Deals extends Component {
 
 													<div className="at-col-default-mar no-mb">
 														<select>
-															<option value="0" selected>
+															<option value="0" selected="selected">
 																02 bedroom
 															</option>
 															<option value="1">1</option>
@@ -310,7 +310,7 @@ export default class Deals extends Component {
 																type="text"
 																id="price_5"
 																className="price-box"
-																readonly
+																readonly="readonly"
 															/>
 														</div>
 													</div>
@@ -323,7 +323,7 @@ export default class Deals extends Component {
 																type="text"
 																id="price_6"
 																className="price-box"
-																readonly
+																readonly="readonly"
 															/>
 														</div>
 													</div>
