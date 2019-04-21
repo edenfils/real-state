@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Header from './includes/Header.js';
+import Footer from './includes/Footer.js';
+import Home from './pages/Home.js';
 
 export default class App extends Component {
 	constructor() {
@@ -14,7 +16,8 @@ export default class App extends Component {
 		return (
 			<div>
 				<Header />
-				<h1>This is the home</h1>
+				<Home />
+				<Footer />
 			</div>
 		);
 	}
