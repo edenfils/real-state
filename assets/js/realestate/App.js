@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Header from './includes/Header.js';
 import Footer from './includes/Footer.js';
 import Home from './pages/Home.js';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 export default class App extends Component {
 	constructor() {
@@ -14,11 +15,13 @@ export default class App extends Component {
 	async test() {}
 	render() {
 		return (
-			<div>
-				<Header />
-				<Home />
-				<Footer />
-			</div>
+			<Router>
+				<div>
+					<Header />
+					<Route extact path="/" component={Home} />
+					<Footer />
+				</div>
+			</Router>
 		);
 	}
 }
