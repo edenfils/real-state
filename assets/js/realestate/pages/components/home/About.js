@@ -28,14 +28,14 @@ export default class About extends Component {
 									<ul>
 										<li>
 											<a href="#">
-												<i className="fa fa-check-square" />mis nibh nec nibh nec
-												ipsum tincidunt ipsumelit.
+												<i className="fa fa-check-square" />
+												mis nibh nec nibh nec ipsum tincidunt ipsumelit.
 											</a>
 										</li>
 										<li>
 											<a href="#">
-												<i className="fa fa-check-square" />lementum mis nibh
-												Quisque nibh nec Quisque sitmi leme.
+												<i className="fa fa-check-square" />
+												lementum mis nibh Quisque nibh nec Quisque sitmi leme.
 											</a>
 										</li>
 									</ul>

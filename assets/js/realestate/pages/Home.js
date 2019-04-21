@@ -4,6 +4,8 @@ import Slider from './components/home/Slider.js';
 import Deals from './components/home/Deals.js';
 import Latest from './components/home/Latest.js';
 import About from './components/home/About.js';
+import Service from './components/home/Service.js';
+import Agents from './components/home/Agents.js';
 
 export default class Home extends Component {
 	constructor() {
@@ -18,6 +20,8 @@ export default class Home extends Component {
 				<Deals />
 				<Latest />
 				<About />
+				<Service />
+				<Agents />
 			</div>
 		);
 	}
