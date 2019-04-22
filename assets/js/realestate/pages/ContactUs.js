@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Title from './components/about/Title.js';
-import Partner from './components/home/Partner.js';
+import Title from './components/contact/Title.js';
+import Form from './components/contact/Form.js';
+import Address from './components/contact/Address.js';
 
 export default class AboutUs extends Component {
 	constructor() {
@@ -13,6 +14,8 @@ export default class AboutUs extends Component {
 		return (
 			<div>
 				<Title />
+				<Form />
+				<Address />
 			</div>
 		);
 	}
