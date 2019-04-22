@@ -318,7 +318,8 @@ export default class Filter extends Component {
 								<a href="#">Rihanna Alexander</a>
 							</h5>
 							<div className="blog_date blog_date_2">
-								<i className="fa fa-phone" aria-hidden="true" />+91 12345 67890
+								<i className="fa fa-phone" aria-hidden="true" />
+								+91 12345 67890
 							</div>
 						</div>
 					</div>
@@ -335,7 +336,8 @@ export default class Filter extends Component {
 								<a href="#"> Alex doe</a>
 							</h5>
 							<div className="blog_date blog_date_2">
-								<i className="fa fa-phone" aria-hidden="true" />+91 12345 63320
+								<i className="fa fa-phone" aria-hidden="true" />
+								+91 12345 63320
 							</div>
 						</div>
 					</div>
@@ -352,7 +354,8 @@ export default class Filter extends Component {
 								<a href="#"> marine doe</a>
 							</h5>
 							<div className="blog_date blog_date_2">
-								<i className="fa fa-phone" aria-hidden="true" />+91 12345 63320
+								<i className="fa fa-phone" aria-hidden="true" />
+								+91 12345 63320
 							</div>
 						</div>
 					</div>
