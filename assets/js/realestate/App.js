@@ -6,6 +6,7 @@ import Home from './pages/Home.js';
 import Listings from './pages/Listings.js';
 import AboutUs from './pages/AboutUs.js';
 import ContactUs from './pages/ContactUs.js';
+import Propery from './pages/Property.js'
 
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
@@ -26,6 +27,8 @@ export default class App extends Component {
 					<Route exact path="/listings" component={Listings} />
 					<Route exact path="/about" component={AboutUs} />
 					<Route exact path="/contact" component={ContactUs} />
+					<Route exact path="/listings/item" component={Property} />
+
 					<Footer />
 				</div>
 			</Router>
