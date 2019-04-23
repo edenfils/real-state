@@ -6,7 +6,6 @@ import Home from './pages/Home.js';
 import Listings from './pages/Listings.js';
 import AboutUs from './pages/AboutUs.js';
 import ContactUs from './pages/ContactUs.js';
-
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 export default class App extends Component {
