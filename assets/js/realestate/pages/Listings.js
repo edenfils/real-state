@@ -5,11 +5,35 @@ import Title from './components/listings/Title.js';
 import Listing from './components/listings/Listing.js';
 import Filter from './components/listings/Filter.js';
 
-
 export default class Listings extends Component {
 	constructor() {
 		super();
-		this.state = {};
+		this.state = {
+			listingsData: {}
+		};
+	}
+
+	componentDidMount() {
+		const self = this;
+		axios
+			.get('/api/listings')
+			.then(function(response) {
+				self.setState(
+					{
+						listingsData: response.data
+					},
+					() => {
+						console.log(self.state);
+					}
+				);
+			})
+			.catch(function(error) {
+				//handle error
+				console.log(error);
+			})
+			.then(function() {
+				// always executed
+			});
 	}
 
 	render() {
