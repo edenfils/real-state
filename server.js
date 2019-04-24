@@ -12,6 +12,10 @@ const app = express();
 
 app.use('/', serveStatic(path.join(__dirname, '/public')));
 
+app.use('/api/listings', function(req, res) {
+  res.json(listingsData);
+})
+
 app.get('*', function(req, res) {
   res.sendFile(__dirname + '/public/index.html')
 })
