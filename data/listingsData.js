@@ -1,4 +1,4 @@
-let listingsData = [
+module.exports = [
   {
     title: '9 W Broadway Unit 603',
     slug: '9-w-broadway-unit-603',

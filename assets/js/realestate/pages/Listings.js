@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import axios from 'axios';
 import Title from './components/listings/Title.js';
 import Listing from './components/listings/Listing.js';
 import Filter from './components/listings/Filter.js';
+
 
 export default class Listings extends Component {
 	constructor() {
