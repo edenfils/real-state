@@ -6,8 +6,11 @@ import Home from './pages/Home.js';
 import Listings from './pages/Listings.js';
 import AboutUs from './pages/AboutUs.js';
 import ContactUs from './pages/ContactUs.js';
+<<<<<<< HEAD
 import Property from './pages/Property.js';
 
+=======
+>>>>>>> c984d3bea052545e4d6c87aa9f3c1c45632315b5
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 export default class App extends Component {
