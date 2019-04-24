@@ -4,7 +4,6 @@ import Title from './components/listings/Title.js';
 import Listing from './components/listings/Listing.js';
 import Filter from './components/listings/Filter.js';
 
-
 export default class Listings extends Component {
 	constructor() {
 		super();
@@ -12,7 +11,6 @@ export default class Listings extends Component {
 	}
 
 	render() {
-
 		return (
 			<div>
 				<Title />

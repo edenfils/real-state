@@ -4,6 +4,10 @@ const serveStatic = require('serve-static');
 
 const path = require('path');
 
+//data
+
+const listingsData = require('./data/listingsData.js');
+
 const app = express();
 
 app.use('/', serveStatic(path.join(__dirname, '/public')));
