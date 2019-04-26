@@ -1608,7 +1608,8 @@ height:48px;
 	transition: all .5s ease;
 }
 .lp_cntnt .project-head img {
-  width: 100%;
+  min-width: 370px;
+	min-height: 211px;
   z-index: 2; }
 
 .lp_cntnt .project-bottom {

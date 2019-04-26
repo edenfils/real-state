@@ -9,7 +9,7 @@ export default class Listings extends Component {
 	constructor() {
 		super();
 		this.state = {
-			listingsData: {}
+			listingsData: ''
 		};
 	}
 
@@ -43,13 +43,12 @@ export default class Listings extends Component {
 				<div className="rs_property_categories_wrapper realestate_prop_cate_wrapper">
 					<div className="container">
 						<div className="row">
-							<Listing />
+							<Listing listingsData={this.state.listingsData} />
 							<Filter />
 						</div>
 					</div>
 				</div>
 			</div>
 		);
-		return <div>Listings page</div>;
 	}
 }
